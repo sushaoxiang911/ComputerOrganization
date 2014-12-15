@@ -1,0 +1,3851 @@
+memory[0]=8454151
+memory[1]=9043971
+memory[2]=655361
+memory[3]=16842754
+memory[4]=16842749
+memory[5]=29360128
+memory[6]=25165824
+memory[7]=5
+memory[8]=-1
+memory[9]=2
+
+
+@@@
+state fetch1 (cycle 0)
+	pc 0
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 0
+		memoryData 1
+		instrReg 2
+		aluOperand -1218745449
+		aluResult -1217025344
+
+@@@
+state fetch2 (cycle 1)
+	pc 0
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 0
+		memoryData 1
+		instrReg 2
+		aluOperand -1218745449
+		aluResult -1217025344
+
+@@@
+state decode1 (cycle 2)
+	pc 0
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 0
+		memoryData 8454151
+		instrReg 2
+		aluOperand -1218745449
+		aluResult -1217025344
+
+@@@
+state lw1 (cycle 3)
+	pc 1
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 0
+		memoryData 8454151
+		instrReg 8454151
+		aluOperand -1218745449
+		aluResult -1217025344
+
+@@@
+state lw2 (cycle 4)
+	pc 1
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 0
+		memoryData 8454151
+		instrReg 8454151
+		aluOperand 0
+		aluResult -1217025344
+
+@@@
+state lw3 (cycle 5)
+	pc 1
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 0
+		memoryData 8454151
+		instrReg 8454151
+		aluOperand 0
+		aluResult 7
+
+@@@
+state lw4 (cycle 6)
+	pc 1
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 7
+		memoryData 8454151
+		instrReg 8454151
+		aluOperand 0
+		aluResult 7
+
+@@@
+state lw4 (cycle 7)
+	pc 1
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 7
+		memoryData 8454151
+		instrReg 8454151
+		aluOperand 0
+		aluResult 7
+
+@@@
+state lw5 (cycle 8)
+	pc 1
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 7
+		memoryData 5
+		instrReg 8454151
+		aluOperand 0
+		aluResult 7
+
+@@@
+state fetch1 (cycle 9)
+	pc 1
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 7
+		memoryData 5
+		instrReg 8454151
+		aluOperand 0
+		aluResult 7
+
+@@@
+state fetch2 (cycle 10)
+	pc 1
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 1
+		memoryData 5
+		instrReg 8454151
+		aluOperand 0
+		aluResult 7
+
+@@@
+state fetch2 (cycle 11)
+	pc 1
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 1
+		memoryData 5
+		instrReg 8454151
+		aluOperand 0
+		aluResult 7
+
+@@@
+state decode1 (cycle 12)
+	pc 1
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 1
+		memoryData 9043971
+		instrReg 8454151
+		aluOperand 0
+		aluResult 7
+
+@@@
+state lw1 (cycle 13)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 1
+		memoryData 9043971
+		instrReg 9043971
+		aluOperand 0
+		aluResult 7
+
+@@@
+state lw2 (cycle 14)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 1
+		memoryData 9043971
+		instrReg 9043971
+		aluOperand 5
+		aluResult 7
+
+@@@
+state lw3 (cycle 15)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 1
+		memoryData 9043971
+		instrReg 9043971
+		aluOperand 5
+		aluResult 8
+
+@@@
+state lw4 (cycle 16)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 8
+		memoryData 9043971
+		instrReg 9043971
+		aluOperand 5
+		aluResult 8
+
+@@@
+state lw4 (cycle 17)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 8
+		memoryData 9043971
+		instrReg 9043971
+		aluOperand 5
+		aluResult 8
+
+@@@
+state lw4 (cycle 18)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 8
+		memoryData 9043971
+		instrReg 9043971
+		aluOperand 5
+		aluResult 8
+
+@@@
+state lw5 (cycle 19)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 8
+		memoryData -1
+		instrReg 9043971
+		aluOperand 5
+		aluResult 8
+
+@@@
+state fetch1 (cycle 20)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 8
+		memoryData -1
+		instrReg 9043971
+		aluOperand 5
+		aluResult 8
+
+@@@
+state fetch2 (cycle 21)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData -1
+		instrReg 9043971
+		aluOperand 5
+		aluResult 8
+
+@@@
+state fetch2 (cycle 22)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData -1
+		instrReg 9043971
+		aluOperand 5
+		aluResult 8
+
+@@@
+state fetch2 (cycle 23)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData -1
+		instrReg 9043971
+		aluOperand 5
+		aluResult 8
+
+@@@
+state decode1 (cycle 24)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 9043971
+		aluOperand 5
+		aluResult 8
+
+@@@
+state add1 (cycle 25)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 5
+		aluResult 8
+
+@@@
+state add2 (cycle 26)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 5
+		aluResult 8
+
+@@@
+state add3 (cycle 27)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 5
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 5
+		aluResult 4
+
+@@@
+state fetch1 (cycle 28)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 5
+		aluResult 4
+
+@@@
+state fetch2 (cycle 29)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 655361
+		instrReg 655361
+		aluOperand 5
+		aluResult 4
+
+@@@
+state decode1 (cycle 30)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 655361
+		aluOperand 5
+		aluResult 4
+
+@@@
+state beq1 (cycle 31)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 5
+		aluResult 4
+
+@@@
+state beq2 (cycle 32)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult 4
+
+@@@
+state fetch1 (cycle 33)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -4
+
+@@@
+state fetch2 (cycle 34)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -4
+
+@@@
+state fetch2 (cycle 35)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -4
+
+@@@
+state decode1 (cycle 36)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842754
+		aluOperand 0
+		aluResult -4
+
+@@@
+state beq1 (cycle 37)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult -4
+
+@@@
+state beq2 (cycle 38)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult -4
+
+@@@
+state beq3 (cycle 39)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult 0
+
+@@@
+state beq4 (cycle 40)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 0
+
+@@@
+state beq5 (cycle 41)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch1 (cycle 42)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 43)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 44)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 45)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state decode1 (cycle 46)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state add1 (cycle 47)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand -3
+		aluResult 2
+
+@@@
+state add2 (cycle 48)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 4
+		aluResult 2
+
+@@@
+state add3 (cycle 49)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 4
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 4
+		aluResult 3
+
+@@@
+state fetch1 (cycle 50)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 4
+		aluResult 3
+
+@@@
+state fetch2 (cycle 51)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 655361
+		instrReg 655361
+		aluOperand 4
+		aluResult 3
+
+@@@
+state decode1 (cycle 52)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 655361
+		aluOperand 4
+		aluResult 3
+
+@@@
+state beq1 (cycle 53)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 4
+		aluResult 3
+
+@@@
+state beq2 (cycle 54)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult 3
+
+@@@
+state fetch1 (cycle 55)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -3
+
+@@@
+state fetch2 (cycle 56)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -3
+
+@@@
+state fetch2 (cycle 57)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -3
+
+@@@
+state decode1 (cycle 58)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842754
+		aluOperand 0
+		aluResult -3
+
+@@@
+state beq1 (cycle 59)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult -3
+
+@@@
+state beq2 (cycle 60)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult -3
+
+@@@
+state beq3 (cycle 61)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult 0
+
+@@@
+state beq4 (cycle 62)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 0
+
+@@@
+state beq5 (cycle 63)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch1 (cycle 64)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 65)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 66)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 67)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state decode1 (cycle 68)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state add1 (cycle 69)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand -3
+		aluResult 2
+
+@@@
+state add2 (cycle 70)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 3
+		aluResult 2
+
+@@@
+state add3 (cycle 71)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 3
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 3
+		aluResult 2
+
+@@@
+state fetch1 (cycle 72)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 73)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 655361
+		instrReg 655361
+		aluOperand 3
+		aluResult 2
+
+@@@
+state decode1 (cycle 74)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 655361
+		aluOperand 3
+		aluResult 2
+
+@@@
+state beq1 (cycle 75)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 3
+		aluResult 2
+
+@@@
+state beq2 (cycle 76)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult 2
+
+@@@
+state fetch1 (cycle 77)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -2
+
+@@@
+state fetch2 (cycle 78)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -2
+
+@@@
+state fetch2 (cycle 79)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -2
+
+@@@
+state decode1 (cycle 80)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842754
+		aluOperand 0
+		aluResult -2
+
+@@@
+state beq1 (cycle 81)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult -2
+
+@@@
+state beq2 (cycle 82)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult -2
+
+@@@
+state beq3 (cycle 83)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult 0
+
+@@@
+state beq4 (cycle 84)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 0
+
+@@@
+state beq5 (cycle 85)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch1 (cycle 86)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 87)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 88)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 89)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state decode1 (cycle 90)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state add1 (cycle 91)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand -3
+		aluResult 2
+
+@@@
+state add2 (cycle 92)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 2
+		aluResult 2
+
+@@@
+state add3 (cycle 93)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 2
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 2
+		aluResult 1
+
+@@@
+state fetch1 (cycle 94)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 2
+		aluResult 1
+
+@@@
+state fetch2 (cycle 95)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 655361
+		instrReg 655361
+		aluOperand 2
+		aluResult 1
+
+@@@
+state decode1 (cycle 96)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 655361
+		aluOperand 2
+		aluResult 1
+
+@@@
+state beq1 (cycle 97)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 2
+		aluResult 1
+
+@@@
+state beq2 (cycle 98)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult 1
+
+@@@
+state fetch1 (cycle 99)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -1
+
+@@@
+state fetch2 (cycle 100)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -1
+
+@@@
+state fetch2 (cycle 101)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult -1
+
+@@@
+state decode1 (cycle 102)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842754
+		aluOperand 0
+		aluResult -1
+
+@@@
+state beq1 (cycle 103)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult -1
+
+@@@
+state beq2 (cycle 104)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult -1
+
+@@@
+state beq3 (cycle 105)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand 0
+		aluResult 0
+
+@@@
+state beq4 (cycle 106)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 0
+
+@@@
+state beq5 (cycle 107)
+	pc 5
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch1 (cycle 108)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 4
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 109)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 110)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state fetch2 (cycle 111)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 16842749
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state decode1 (cycle 112)
+	pc 2
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 16842749
+		aluOperand -3
+		aluResult 2
+
+@@@
+state add1 (cycle 113)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand -3
+		aluResult 2
+
+@@@
+state add2 (cycle 114)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 1
+		aluResult 2
+
+@@@
+state add3 (cycle 115)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 1
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 1
+		aluResult 0
+
+@@@
+state fetch1 (cycle 116)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 2
+		memoryData 655361
+		instrReg 655361
+		aluOperand 1
+		aluResult 0
+
+@@@
+state fetch2 (cycle 117)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 655361
+		instrReg 655361
+		aluOperand 1
+		aluResult 0
+
+@@@
+state decode1 (cycle 118)
+	pc 3
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 655361
+		aluOperand 1
+		aluResult 0
+
+@@@
+state beq1 (cycle 119)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 1
+		aluResult 0
+
+@@@
+state beq2 (cycle 120)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult 0
+
+@@@
+state beq3 (cycle 121)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 0
+		aluResult 0
+
+@@@
+state beq4 (cycle 122)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 2
+		aluResult 0
+
+@@@
+state beq5 (cycle 123)
+	pc 4
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 2
+		aluResult 6
+
+@@@
+state fetch1 (cycle 124)
+	pc 6
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 3
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 2
+		aluResult 6
+
+@@@
+state fetch2 (cycle 125)
+	pc 6
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 6
+		memoryData 16842754
+		instrReg 16842754
+		aluOperand 2
+		aluResult 6
+
+@@@
+state decode1 (cycle 126)
+	pc 6
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 6
+		memoryData 25165824
+		instrReg 16842754
+		aluOperand 2
+		aluResult 6
+
+@@@
+state halt (cycle 127)
+	pc 7
+	memory:
+		mem[ 0 ] 8454151
+		mem[ 1 ] 9043971
+		mem[ 2 ] 655361
+		mem[ 3 ] 16842754
+		mem[ 4 ] 16842749
+		mem[ 5 ] 29360128
+		mem[ 6 ] 25165824
+		mem[ 7 ] 5
+		mem[ 8 ] -1
+		mem[ 9 ] 2
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] -1
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+	internal registers:
+		memoryAddress 6
+		memoryData 25165824
+		instrReg 25165824
+		aluOperand 2
+		aluResult 6

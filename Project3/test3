@@ -1,0 +1,21 @@
+        lw      0       1       shu1
+        lw      0       2       shu2 
+        beq     1       2       done
+        lw      0       3       neg1
+        add     2       3       2
+        add     2       3       2
+        lw      0       3       pos1
+        add     2       3       2
+        lw      0       3       neg1
+        add     2       3       2
+done    noop
+        lw      0       6       shu2
+        sw      0       6       0
+        add     6       3       5
+        lw      1       7       shu1
+        add     1       1       1
+        halt
+shu1    .fill   4
+shu2    .fill   10
+neg1    .fill   -1
+pos1    .fill   1
